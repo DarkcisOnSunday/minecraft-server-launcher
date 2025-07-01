@@ -1,11 +1,13 @@
-namespace MinecraftServerLauncher;
-
-static class Program
+namespace MinecraftServerLauncher
 {
-    [STAThread]
-    private static void Main()
+    static class Program
     {
-        ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
     }
 }
