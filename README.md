@@ -1,4 +1,3 @@
-```markdown
 # Minecraft Server Launcher
 
 A lightweight Windows application built with C# (WinForms) for managing and launching Minecraft server `.bat` files through a simple UI.
@@ -15,13 +14,10 @@ A lightweight Windows application built with C# (WinForms) for managing and laun
 
 The application expects the following structure inside the root directory:
 
-```
 
 Minecraft Servers/
 ├── versions/      ← Contains individual Minecraft server folders (with .jar files, mods, configs, etc.)
 └── launchers/     ← Contains .bat files used to launch servers from the versions folder
-
-```
 
 ## How to Use
 
@@ -30,5 +26,4 @@ Minecraft Servers/
 3. Select a `.bat` file from the dropdown menu.  
 4. Edit the launch parameters if needed in the editor.  
 5. Click **"Run"** to start the server or **"Save"** to apply changes.  
-6. Use **"Add New"** to create a blank `.bat` file in the `launchers` folder.  
-```
+6. Use **"Add New"** to create a blank `.bat` file in the `launchers` folder. 
